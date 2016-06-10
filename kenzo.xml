@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote  name="me"
+           fetch="https://github.com/Adarsh-MR" />
+    
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
+   
+           	
+  <remote  name="gh"
+           fetch="https://github.com" />
+            	
+<!--Xiaomi Redmi Note 3 (KENZO)-->
+<project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" remote="me" revision="crd6.0" />
+<project path="kernel/xiaomi/msm8956" name="kernel_xiaomi_msm8956" remote="cm" revision="cm-13.0"/>
+<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="me" revision="cm-13.0" />
+
+<!--HALS-->
+<project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8952" />
+<project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" remote="cm" revision="cm-13.0-caf-8952" />
+<project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0-caf-8952" />
+
+</manifest>
